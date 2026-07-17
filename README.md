@@ -130,7 +130,7 @@ AirportSystem.java
 ```
 
 The Console Interface provides full airport management functionality.
-<img width="401" height="280" alt="لقطة شاشة 2026-07-17 155119" src="https://github.com/user-attachments/assets/c8ecdee8-8fa8-41ca-b29c-3a66e4e77350" />
+<img width="956" height="309" alt="image" src="https://github.com/user-attachments/assets/bce989fc-6ba4-4b4e-b654-b69a91010052" />
 
 ### JavaFX Mode
 
