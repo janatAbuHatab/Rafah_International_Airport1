@@ -102,22 +102,9 @@ src
 | `BookingView` | JavaFX booking window |
 
 ---
+## UML Digram for the project
+<img width="1902" height="2511" alt="umlRafahAirport" src="https://github.com/user-attachments/assets/74710bd3-0b8e-4647-8075-83fa433de407" />
 
-## System Workflow
-
-```text
-             Airport
-                 │
-      ┌──────────┼──────────┐
-      │          │          │
-  Flights     Employees    Gates
-      │
-      ├──────── Pilot
-      │
-      └──────── Passenger
-```
-
----
 
 ## Technologies
 
