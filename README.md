@@ -143,7 +143,8 @@ Booking View
 The JavaFX window allows passengers to browse available flights and book tickets.
 
 ---
-<img width="584" height="536" alt="لقطة شاشة 2026-07-16 163436" src="https://github.com/user-attachments/assets/fdac9c75-e396-42bd-9428-7ef0574d5869" />
+<img width="631" height="579" alt="image" src="https://github.com/user-attachments/assets/106c4354-5024-44e4-a848-e487593b1ca1" />
+
 
 ## AI Usage Declaration
 
