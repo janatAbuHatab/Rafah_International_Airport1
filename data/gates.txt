@@ -1,0 +1,9 @@
+A1,Terminal 1,200
+A2,Terminal 1,150
+B1,Terminal 2,180
+B2,Terminal 2,120
+B3,Terminal 3,20
+B4,Terminal 3,200
+C1,Terminal 4,250
+C2,Terminal 5,350
+C3,Terminal 5,400
