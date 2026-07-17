@@ -130,6 +130,7 @@ AirportSystem.java
 ```
 
 The Console Interface provides full airport management functionality.
+<img width="401" height="280" alt="لقطة شاشة 2026-07-17 155119" src="https://github.com/user-attachments/assets/c8ecdee8-8fa8-41ca-b29c-3a66e4e77350" />
 
 ### JavaFX Mode
 
@@ -142,10 +143,11 @@ Booking View
 The JavaFX window allows passengers to browse available flights and book tickets.
 
 ---
+<img width="584" height="536" alt="لقطة شاشة 2026-07-16 163436" src="https://github.com/user-attachments/assets/fdac9c75-e396-42bd-9428-7ef0574d5869" />
 
 ## AI Usage Declaration
 
-ChatGPT was used as a learning and guidance tool during the development of this project. It provided explanations of JavaFX concepts, assisted in understanding the GUI development process, and clarified the overall code structure and programming techniques.
+ChatGPT was used as a learning and guidance tool during the development of this project. It provided explanations of JavaFX concepts, assisted in understanding the GUI development process, and clarified the overall code structure and programming techniques and it also helped as to deal witj errors appered while doing the program.
 
 All implementation, integration, testing, debugging, and final design decisions were completed independently by the students.
 
