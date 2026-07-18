@@ -68,6 +68,9 @@ Rafah International Airport Management System is a Java-based desktop applicatio
 
 ## Project Structure
 
+## Project Structure
+
+```text
 Rafah-International-Airport-Management-System
 │
 ├── src
