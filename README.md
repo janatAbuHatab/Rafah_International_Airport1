@@ -171,6 +171,13 @@ The JavaFX interface allows passengers to browse available flights and book tick
 ChatGPT was used as a learning and guidance tool during the development of this project. It helped explain JavaFX concepts, clarify the application structure, and assist in understanding and resolving programming errors encountered during development.
 
 All implementation, integration, testing, debugging, and final design decisions were completed independently by the students.
+---
+
+## Demo Video
+
+Watch the project demonstration on YouTube:
+
+[**Rafah International Airport Management System – Demo Video**](https://www.youtube.com/watch?v=VlSYgvFJB7I)
 
 ---
 
