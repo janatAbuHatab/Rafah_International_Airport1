@@ -25,6 +25,7 @@
 - Register passengers
 - View passengers
 - Search passengers
+- Delete passengers
 - Flight check-in
 
 ### Gate Management
