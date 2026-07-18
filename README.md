@@ -68,21 +68,27 @@ Rafah International Airport Management System is a Java-based desktop applicatio
 
 ## Project Structure
 
-```text
-src
+Rafah-International-Airport-Management-System
 │
-├── Airport.java
-├── AirportSystem.java
-├── BookingView.java
-├── Employee.java
-├── FileHandler.java
-├── Flight.java
-├── FlightStatus.java
-├── Gate.java
-├── InvalidFlightException.java
-├── Passenger.java
-└── Pilot.java
-```
+├── src
+│   └── rafahairport
+│       ├── Airport.java
+│       ├── AirportSystem.java
+│       ├── BookingView.java
+│       ├── Employee.java
+│       ├── FileHandler.java
+│       ├── Flight.java
+│       ├── FlightStatus.java
+│       ├── Gate.java
+│       ├── InvalidFlightException.java
+│       ├── Passenger.java
+│       └── Pilot.java
+│
+├── employees.txt
+├── flights.txt
+├── gates.txt
+├── passengers.txt
+└── README.md
 
 ---
 
