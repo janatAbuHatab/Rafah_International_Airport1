@@ -179,6 +179,14 @@ Watch the project demonstration on YouTube:
 [**Rafah International Airport Management System – Demo Video**](https://www.youtube.com/watch?v=VlSYgvFJB7I)
 
 ---
+## Documentation
+
+The project documentation and additional resources are available in the following folder:
+
+- **Google Drive:**  
+  https://drive.google.com/drive/folders/1S29RX6WJaEE-ei0o0YJHgF9LvaIlotNZ?usp=sharing
+
+---
 
 ## Team Members
 
