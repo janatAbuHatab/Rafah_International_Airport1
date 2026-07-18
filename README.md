@@ -4,7 +4,7 @@
 
 ## Overview
 
-Rafah International Airport Management System is a Java-based desktop application developed using Object-Oriented Programming (OOP) principles. The system simulates the core operations of an airport, including flight scheduling, passenger registration, employee management, gate allocation, and ticket booking through both Console and JavaFX interfaces.
+**Rafah International Airport Management System** is a Java-based desktop application developed using **Object-Oriented Programming (OOP)** principles. The system simulates the core operations of an airport, including flight scheduling, passenger registration, employee management, gate allocation, and ticket booking through both Console and JavaFX interfaces.
 
 ---
 
@@ -41,10 +41,10 @@ Rafah International Airport Management System is a Java-based desktop applicatio
 
 ### Additional Features
 
-- Airport status overview
+- View airport status
 - Save data into text files
-- Automatic data loading
-- Flight booking using JavaFX
+- Automatically load data at startup
+- Book flights using the JavaFX interface
 
 ---
 
@@ -52,21 +52,19 @@ Rafah International Airport Management System is a Java-based desktop applicatio
 
 | Concept | Description |
 |---------|-------------|
-| **Encapsulation** | Private fields with public getters and setters. |
-| **Abstraction** | Abstract `Employee` class implemented by subclasses. |
-| **Inheritance** | `Pilot` extends `Employee`; `InvalidFlightException` extends `Exception`. |
-| **Polymorphism** | Employee references can point to Pilot objects. |
-| **Interfaces** | `Comparable` implemented in multiple classes. |
-| **Method Overriding** | `compareTo()` overridden where required. |
-| **Enumeration** | `FlightStatus` enum defines flight states. |
-| **Exception Handling** | Custom exceptions with try-catch blocks. |
-| **Composition** | Flight owns Passenger and Pilot objects. |
-| **Aggregation** | Airport contains Flights, Gates, Employees, and Passengers. |
-| **JavaFX** | Booking interface for passengers. |
+| **Encapsulation** | All class fields are private and accessed through getters and setters. |
+| **Abstraction** | The abstract `Employee` class is extended by subclasses such as `Pilot`. |
+| **Inheritance** | `Pilot` extends `Employee`, and `InvalidFlightException` extends `Exception`. |
+| **Polymorphism** | An `Employee` reference can refer to a `Pilot` object. |
+| **Interfaces** | The `Comparable` interface is implemented by several classes. |
+| **Method Overriding** | The `compareTo()` method is overridden to define custom object comparisons. |
+| **Enumeration** | `FlightStatus` defines the available flight states. |
+| **Exception Handling** | Custom exceptions and `try-catch` blocks are used to handle runtime errors. |
+| **Composition** | Applied between `Flight` and `Passenger`, and between `Flight` and `Pilot`. |
+| **Aggregation** | Applied between `Airport` and its Flights, Employees, Gates, and Passengers. |
+| **JavaFX** | Provides a graphical booking interface for passengers. |
 
 ---
-
-## Project Structure
 
 ## Project Structure
 
@@ -92,6 +90,7 @@ Rafah-International-Airport-Management-System
 ├── gates.txt
 ├── passengers.txt
 └── README.md
+```
 
 ---
 
@@ -99,34 +98,37 @@ Rafah-International-Airport-Management-System
 
 | Class | Responsibility |
 |------|----------------|
-| `AirportSystem` | Application controller |
-| `Airport` | Stores airport data |
-| `Flight` | Flight information |
-| `Passenger` | Passenger information |
-| `Employee` | Abstract employee class |
-| `Pilot` | Pilot implementation |
-| `Gate` | Airport gates |
-| `FileHandler` | File storage and retrieval |
-| `InvalidFlightException` | Custom exception |
-| `BookingView` | JavaFX booking window |
+| `AirportSystem` | Main application controller |
+| `Airport` | Represents the airport and stores its data |
+| `Flight` | Represents a flight |
+| `Passenger` | Represents a passenger |
+| `Employee` | Abstract superclass for employees |
+| `Pilot` | Represents a pilot |
+| `Gate` | Represents an airport gate |
+| `FileHandler` | Handles file input/output operations |
+| `InvalidFlightException` | Custom exception class |
+| `BookingView` | JavaFX booking interface |
 
 ---
-## UML Digram for the project
-<img width="1902" height="2511" alt="RafahAirport drawio (1)" src="https://github.com/user-attachments/assets/de320e2c-73b5-439e-a2a1-b0453f94243f" />
 
+## UML Diagram
 
+<p align="center">
+<img width="900" alt="UML Diagram" src="https://github.com/user-attachments/assets/de320e2c-73b5-439e-a2a1-b0453f94243f">
+</p>
 
+---
 
-## Technologies
+## Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
 | Java | Core programming language |
 | JavaFX | Graphical User Interface |
-| OOP | Software design |
-| Collections Framework | Data management |
-| File Handling | Persistent storage |
-| Exception Handling | Error management |
+| Object-Oriented Programming | Software Design |
+| Collections Framework | Data Management |
+| File Handling | Persistent Storage |
+| Exception Handling | Error Management |
 
 ---
 
@@ -134,32 +136,39 @@ Rafah-International-Airport-Management-System
 
 ### Console Mode
 
-Run
+Run:
 
 ```text
 AirportSystem.java
 ```
 
-The Console Interface provides full airport management functionality.
-<img width="956" height="309" alt="image" src="https://github.com/user-attachments/assets/bce989fc-6ba4-4b4e-b654-b69a91010052" />
+The Console Interface provides complete airport management functionality.
+
+<p align="center">
+<img width="900" alt="Console Interface" src="https://github.com/user-attachments/assets/bce989fc-6ba4-4b4e-b654-b69a91010052">
+</p>
+
+---
 
 ### JavaFX Mode
 
-From the Console menu select
+From the Console menu, select:
 
-```
+```text
 Booking View
 ```
 
-The JavaFX window allows passengers to browse available flights and book tickets.
+The JavaFX interface allows passengers to browse available flights and book tickets.
+
+<p align="center">
+<img width="550" alt="JavaFX Interface" src="https://github.com/user-attachments/assets/106c4354-5024-44e4-a848-e487593b1ca1">
+</p>
 
 ---
-<img width="631" height="579" alt="image" src="https://github.com/user-attachments/assets/106c4354-5024-44e4-a848-e487593b1ca1" />
-
 
 ## AI Usage Declaration
 
-ChatGPT was used as a learning and guidance tool during the development of this project. It provided explanations of JavaFX concepts, assisted in understanding the GUI development process, and clarified the overall code structure and programming techniques and it also helped as to deal witj errors appered while doing the program.
+ChatGPT was used as a learning and guidance tool during the development of this project. It helped explain JavaFX concepts, clarify the application structure, and assist in understanding and resolving programming errors encountered during development.
 
 All implementation, integration, testing, debugging, and final design decisions were completed independently by the students.
 
@@ -176,10 +185,10 @@ All implementation, integration, testing, debugging, and final design decisions 
 
 ---
 
-## Course Project
+## Course Information
 
-Computer Systems Engineering
+**Course:** Object-Oriented Programming (Java)
 
-Object-Oriented Programming (Java)
+**Department:** Computer Systems Engineering
 
-Rafah International Airport Management System
+**Project:** Rafah International Airport Management System
