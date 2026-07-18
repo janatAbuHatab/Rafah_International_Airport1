@@ -113,9 +113,8 @@ Rafah-International-Airport-Management-System
 
 ## UML Diagram
 
-<p align="center">
-<img width="900" alt="UML Diagram" src="https://github.com/user-attachments/assets/de320e2c-73b5-439e-a2a1-b0453f94243f">
-</p>
+<img width="1902" height="2551" alt="RafahAirport drawio" src="https://github.com/user-attachments/assets/83d13579-369d-49d3-bdd1-af3c3266de8e" />
+
 
 ---
 
